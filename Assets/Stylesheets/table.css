@@ -1,0 +1,110 @@
+table, th, td {    
+    border: 1px solid black;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border-collapse: collapse;    
+    width: 500px;  
+    text-align: center;  
+    font-size: 20px;  
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }    
+
+    .styled-table thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+    }
+    
+    .styled-table th,
+    .styled-table td {
+        padding: 12px 15px;
+    }
+
+    .styled-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+    
+    
+    .styled-table tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+    }
+    
+    .styled-table tbody tr.active-row {
+        font-weight: bold;
+        color: #009879;
+    }
+
+    .logo{
+        margin-left: auto;  
+        margin-right: auto;  
+        border-collapse: collapse; 
+        width: 500px;  
+        text-align: center; 
+    }
+    th{
+        background-color: #009879;
+        color: #ffffff;
+    }
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    button[type=submit] {
+        background-color: #009879;
+        border: none;
+        width: 241px;
+        height: 58px;
+        text-transform: uppercase;
+        color: white;
+        border-radius: 10px;
+        position: relative;
+        font-weight: bold;
+        font-size: 20px;
+      }
+      button[type=submit]:hover::after {
+        opacity: 1;
+      }
+      button[type=submit]::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        border-radius: 10px;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        
+        background: -webkit-linear-gradient(bottom, #09203f 0%, #537895 100%);
+        background: -o-linear-gradient(bottom, #09203f 0%, #537895 100%);
+        background: linear-gradient(to top, #09203f 0%, #537895 100%);
+      }
+      input {
+        font-size: 16px;
+        font-weight: normal;
+        background: rgba(57, 57, 57, 0.07);
+        margin: 12.5px 0;
+        height: 68px;
+        border: none;
+        padding: 0 30px;
+        border-radius: 10px;
+      }
+      h1{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+      .sid{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+      label{
+        background-color: #009879;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+      }
